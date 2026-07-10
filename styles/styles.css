@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Inter", sans-serif;
 }
 
 /* common style */
@@ -38,4 +39,46 @@
 }
 .nav-menu-list a:hover {
     background-color: #cfd7fa;
+}
+
+/* hero-section-styles */
+
+.hero{
+    background-image: url("../assets/banner.jpg");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+}
+.hero-content h2{
+    font-size: 80px;
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+/* hero button */
+.hero-section-btn{
+    background-color: #3B82F6;
+    padding: 12px 25px;
+    border-radius: 12px;
+    font-size: 22px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
 }
