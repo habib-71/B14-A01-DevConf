@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* common style */
+.btn{
+    background-color: #1D4ED8;
+    padding: 8px 20px;
+    border-radius: 12px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* navbar-design */
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+
+}
+.nav-menu-list ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-menu-list a {
+    text-decoration: none;
+    color: #575757;
+}
+.nav-menu-list a:hover {
+    background-color: #cfd7fa;
+}
