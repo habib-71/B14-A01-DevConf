@@ -14,6 +14,9 @@
   border: none;
   cursor: pointer;
 }
+.subtitle-color{
+    color:#888888
+}
 
 /* navbar-design */
 .nav-menu {
@@ -66,7 +69,7 @@
   font-size: 80px;
   font-style: italic;
   font-weight: bold;
-  padding-top: 80px;
+  padding-top: 200px;
   padding-bottom: 20px;
 }
 /* hero button */
@@ -130,4 +133,78 @@
 .speaker-card h3,
 .speaker-card small {
     padding: 0 20px;
+}
+
+/* Pricing card style */
+
+
+.pricing-section{
+    text-align: center;
+    margin-top: 50px;
+}.pricing-section>h2{
+    font-size: 50px;
+    margin-bottom: 12px;
+}
+.pricing-section > small{
+    display: block;
+    margin-bottom: 40px;
+    color: #6B7280;
+}
+.pricing-card{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+.pricing-card h2{
+    font-size: 40px;
+    margin: 0;
+}
+.standard-card,
+.pro-card,
+.team-card{
+    width: 350px;
+    border-radius: 12px;
+    padding: 24px;
+    text-align: left;
+    border: 1px solid #E5E7EB;
+
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.pro-card{
+    background-color: #0D1B2A;
+    color: white;
+}
+.pricing-card hr{
+    margin: 20px 0;
+    border: none;
+    border-top: 1px solid #E5E7EB;
+}
+.pricing-card ul{
+    margin: 0;
+    padding-left: 20px;
+}
+.pricing-card li{
+    margin-bottom: 12px;
+}
+.pricing-card li::marker{
+    color: #2563EB;
+}
+.pricing-card button{
+    width: 100%;
+    padding: 14px;
+    border: 1px solid black;
+    border-radius: 8px;
+    margin-top: auto;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+.pro-card-button{
+    background-color: #2563EB;
+    color: #FFFFFF;
 }
